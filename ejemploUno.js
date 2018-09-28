@@ -9,11 +9,9 @@ function verHora() {
     const segundos = hoy.getSeconds();
     let amPm = (hora >= 12)? "PM":"AM";
     hora = (amPm=="PM")? hora-12: hora;
-<<<<<<< HEAD
+	
     console.log(`Hora actual: ${hora}:${minutos}:${segundos} ${amPm}`);
 	alert('modificado por victor garcia');
-=======
-    console.log(`Hora actual: ${hora}:${minutos}:${segundos} ${amPm}`)
->>>>>>> rama_victor
+
 
 }
