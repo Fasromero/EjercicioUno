@@ -10,5 +10,6 @@ function verHora() {
     let amPm = (hora >= 12)? "PM":"AM";
     hora = (amPm=="PM")? hora-12: hora;
     console.log(`Hora actual: ${hora}:${minutos}:${segundos} ${amPm}`)
+	hora
 
 }
