@@ -2,7 +2,7 @@ function verHora() {
     
     const hoy = new Date();
     const diaActual = hoy.getDay();
-    const dias = ["Domingo","Lunes","Martes","Miercoles ","Jueves","Viernes","Sabado"];
+    const dias = ["domingo","lunes","martes","miercoles ","jueves","viernes","sabado"];
     console.log(`Hoy es : ${dias[diaActual]}.`);
     let hora = hoy.getHours();
     const minutos = hoy.getMinutes();
